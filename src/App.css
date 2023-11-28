@@ -1,0 +1,31 @@
+.main{
+  background-color: aqua;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.form_div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+}
+.form_div input{
+  width: 500px;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 6px ;
+}
+li{
+  font-size: large;
+  font-weight: 600;
+}
+@media screen and (max-width: 600px) {
+  .form_div input {
+    width: calc(100% - 20px); 
+    max-width: 500px;
+  }
+}
